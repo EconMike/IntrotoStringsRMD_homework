@@ -1,0 +1,42 @@
+---
+title: "Class homework"
+author: "Mike J"
+date: "4/25/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Homework
+
+Here are some starter code that you can play with before Thursdays workshop : )
+
+
+
+```{r hw1}
+
+#try out these starter code:
+
+result <- substring("Statistical Meetup", 13, 19)
+print(result)
+```
+
+```{r hw2}
+#change to all upper case
+result <- "Statistical Seminars is Fun"
+toupper(result )
+
+#replace words
+
+base <- "Wow that was cool."
+sub("cool", "AWESOMAZING!", base)
+
+#this is a basic example of a string without errors
+
+string1 <- "This is a string"
+string1
+
+```
+
